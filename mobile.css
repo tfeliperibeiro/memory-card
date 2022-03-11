@@ -1,0 +1,230 @@
+/* Mobile */
+
+@media only screen and (max-width: 640px) {
+  .container-cards {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+
+  /* Start Game */
+  .container-start-game {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #333;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .start {
+    display: none;
+  }
+
+  .start-game-text {
+    color: #f2f2f2;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .start-game-btn {
+    border: none;
+    width: 16rem;
+    height: 4rem;
+    margin-top: 2rem;
+    border-radius: 4rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: #38a169;
+    color: #f2f2f2;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .start-game-btn:hover {
+    background-color: #f2f2f2;
+    border: 1px solid #38a169;
+    color: #38a169;
+  }
+
+  .container-restart-game {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #333;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .restart {
+    display: flex;
+  }
+
+  .restart-game-text {
+    color: #f2f2f2;
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .restart-game-btn {
+    border: none;
+    width: 16rem;
+    height: 4rem;
+    margin-top: 2rem;
+    border-radius: 4rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: #38a169;
+    color: #f2f2f2;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .restart-game-btn:hover {
+    background-color: #f2f2f2;
+    border: 1px solid #38a169;
+    color: #38a169;
+  }
+}
+
+@media only screen and (max-width: 896px) {
+  .container-cards {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+    padding: 0;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+
+  /* Start Game */
+  .container-start-game {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #333;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .start {
+    display: none;
+  }
+
+  .start-game-text {
+    color: #f2f2f2;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .start-game-btn {
+    border: none;
+    width: 16rem;
+    height: 4rem;
+    margin-top: 2rem;
+    border-radius: 4rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: #38a169;
+    color: #f2f2f2;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .start-game-btn:hover {
+    background-color: #f2f2f2;
+    border: 1px solid #38a169;
+    color: #38a169;
+  }
+
+  .container-restart-game {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #333;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .restart {
+    display: flex;
+  }
+
+  .restart-game-text {
+    color: #f2f2f2;
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .restart-game-btn {
+    border: none;
+    width: 16rem;
+    height: 4rem;
+    margin-top: 2rem;
+    border-radius: 4rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: #38a169;
+    color: #f2f2f2;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .restart-game-btn:hover {
+    background-color: #f2f2f2;
+    border: 1px solid #38a169;
+    color: #38a169;
+  }
+}
